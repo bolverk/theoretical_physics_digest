@@ -1,3 +1,0 @@
-Suppose we have a massive object enshrouded in a gas cloud. Due to gravity, some of the gas will fall straight onto the massive object, but most of the gas particles would just move on closed Keplerian orbits. If the initial gas cloud has some angular momentum, and if some dissipation is present, then it will settle into the shape of a disk. This is called the accretion disk. Usually, it is much easier for gas to rid itself of energy than angular momentum, so most orbits in an accretion disks would be circular.
-
-Another scenario where accretion disks occur is in a system of mutually orbiting binary stars, when one stars exudes mass (as either stellar wind or Roche lobe overflow), and the companion captures some of it.
