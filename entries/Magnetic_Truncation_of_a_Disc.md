@@ -1,0 +1,5 @@
+Let us consider an accretion disc around a star. We denote the aspect ratio of the disc by $ \alpha < 1 $, which is also the ratio between the radial and Keplerian velocities $v_r/v_k \approx \alpha$. As the gas is moving inward, it has to overcome the magnetic pressure from the host star. We denote the magntic dipole moment of the star by $ \mu $, and the critical distance $ R $, then the magnetic field there is $ B \approx \mu / R^3 $ and the magnetic pressure is $ B^2 $. The density of the gas at the critical radius is $ \rho \approx \frac{\dot{M}}{\alpha R^2 v_r} $, and the ram pressure is $ \rho v_r^2 \approx \frac{\dot{M}}{R^2} v_k $. Equating the magnetic and ram pressure yields the critical radius
+
+$ B^2 \approx \frac{\dot{M}}{R^2} v_k \Rightarrow R \approx \left(\frac{\mu^2}{\dot{M} G M}\right)^{1/7}$
+
+where $ v_k \approx \sqrt{G M / R} $ is the Keplerian velocity, $ G $ is the constant of gravity and $ M $ is the mass of the host star. The disc cannot extend to radii smaller than $ R $.

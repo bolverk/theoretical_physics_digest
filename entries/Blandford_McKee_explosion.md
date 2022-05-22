@@ -1,0 +1,7 @@
+Suppose we deposit a very large amount of energy in a uniform, homogeneous atmosphere with constant number density $ n $ and the rest mass of each particle is $ m $. We are interested in the behaviour of the shock front in times when the energy of the explosion is much greater than the energy of the mass swept by the shock wave. In this case we can assume that the shock front travels at a velocity that is very close to the speed of light in vacuo $ c $. Hence the number of particles swept by the shock is proportional to $ n \left( c t \right)^{\nu} $ where $ \nu $ is the dimensionality of the explosion (1 for planar, 2 for cylindrical and 3 for spherical). We now want to find the Lorentz factor of the shock front $ \Gamma $. We determine it using conservation of energy. One might naively think that the energy per particle should be $ \Gamma mc^2 $. That were true if all particles were moving radially with Lorentz factor $ \Gamma $. However, the shock also heats up the fluid, so even in the rest frame of every fluid element, particles are moving in random directions with Lorentz factor $ \Gamma $. Hence, the average energy per particle in the rest frame is $ \Gamma m c^2 $, and in the lab frame it is $ \Gamma^2 m c^2 $. From energy conservation we get 
+
+$ E \propto n \left( c t \right)^{\nu} \Gamma^2 m c^2 $
+
+Since the energy is constnat
+
+$ \Gamma \propto t^{\nu/2} $

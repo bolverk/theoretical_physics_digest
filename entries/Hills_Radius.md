@@ -1,0 +1,5 @@
+Let us consider a self gravitating gas sphere of mass $ m $ and radius $ R $ at a distance $ d $ from a point mass $ M>m $. Self gravity of the sphere is given by $ G m / R^2 $. The point mass is exerting a tidal force on the sphere, which can be quantified as the difference between the force on the centre of the sphere and the force on the surface $ G M R / d^3 $. The tidal force becomes comparable when the distance is
+
+$ \frac{G m}{R^2} \approx \frac{G M R}{d^3} \Rightarrow d \approx R \left(M/m\right)^{1/3} $
+
+This distance is called the Hills radius. The same condition can be expressed in several equivalent ways. One alternative is that the density of the sphere becomes comparable to the average density enclosed within a sphere of radius $d$ around $ M $. Another alternative is that the dynamical time of $m$, namely $ \sqrt{R^3/G m} $ becomes comparable to the Keplerian time for a motion around $ M $, namely $ \sqrt{d^3/ G M} $.

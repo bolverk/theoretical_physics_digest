@@ -1,0 +1,1 @@
+#REDIRECT [[Theoretical physics digest Wiki]]

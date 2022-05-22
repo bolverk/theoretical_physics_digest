@@ -1,0 +1,9 @@
+This entry is largely based on page 57 in [https://wwwmpa.mpa-garching.mpg.de/~henk/mhd12.pdf these notes].
+
+Let us consider a box filled with cold magnetised plasma. The plasma responds differently to deformations in different directions. In the box is squeezed parallel to the field lines, the plasma does not resist the change in volume. If the box is squeezed in a direction normal to the magnetic field, then according to magnetic flux conservation the growth in the magnetic field is inversely proportional to the decrease in volume, meaning $B \propto V^{-1}$ and the magnetic pressure scales as $B^2 \propto V^{-2}$ where $V$ is the volume. Hence, the magnetised plasma with a coherent magnetic field behaves like an ideal gas with an adiabatic index $\gamma = 2$.
+
+If the magnetic field is tangles rather than coherent, then it has roughly the same amplitude in all directions $ <B_x^2> \approx <B_y^2> \approx <B_z^2> \approx <B^2>/3 $. If we compress the box (without loss of generality) along the $z$ axis such that the side length decreases to $V'/V=1-\varepsilon$ of its original size, the amplitudes of the $x$ and $y$ magnetic field components will increase by a factor of $B'_x/B_x \approx B'_y/B_y \approx \left(1-\varepsilon\right)^{-1}$, due to flux conservation. The relative change in the magnetic pressure is
+
+$ \frac{<B'_x^2> + <B'_y^2> + <B_z^2>}{<B_x^2> + <B_y^2> + <B_z^2>} \approx \frac{1}{3} \left(1+\frac{2}{\left(1-\varepsilon^2\right)^2}\right) \approx 1 + \frac{4}{3} \varepsilon $
+
+Hence a tangled magnetic field behaves like a photon gas, or an ideal gas with an adiabatic index $\gamma = 4/3$.

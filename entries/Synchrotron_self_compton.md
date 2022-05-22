@@ -1,0 +1,11 @@
+Synchrotron self Compton is inverse Compton  (IC) radiation produced when synchrotron emitting particles up-scatter their own synchrotron radiation. The importance of this process can be determined given the relative energy densities of magnetic fields and thermal energy in the radiating particles (which we will assume are electrons, which is usually the relevant situation for astrophysical systems). In [[Synchrotron radiation]] it is shown that the power of synchrotron radiation is given by: $ P_{syn}=\frac{4}{3}\sigma_T c \beta^2 \gamma^2 U_B $where $ U_B=\frac{B^2}{8\pi} $ is the energy density in the magnetic field. It is also shown in the same entry that this relation can be understood by modeling the synchrotron process as IC scattering of the virtual photons related to the magnetic field. Therefore, a similar relation can be written for IC:  $ P_{IC}=\frac{4}{3}\sigma_T c \beta^2 \gamma^2 U_{rad} $, where the up-scattering here is of the incoming radiation field and hence $U_B $ was replaced by $ U_{rad} $ which in the case considered here is simply $ U_{syn} $. We see that the ratio between the importance of IC and synchrotron is simply:
+
+$ \frac{U_{IC}}{U_{syn}}\equiv Y=\frac{U_{syn}}{U_B} $. This ratio is known as the Compton $ Y $parameter.
+
+Let us consider now a situation in which the electrons are cooling efficiently and eventually lose all their energy either by synchrotron or by IC. In this case: $ U_e=U_{syn}+U_{IC} $. Together with the equation for $ Y $we can obtain a relation for $ Y $that depends only on  $ U_e, U_B $.
+
+First, consider $ U_e \gg U_B $. In this case $ U_e \approx U_{IC} $(here synchrotron is less important than IC), resulting in $ Y=\frac{U_{syn}}{U_B}=\frac{U_e}{U_{syn}} $ from which we conclude that $ U_{syn}=\sqrt{U_e U_B} $ and therefore $ Y=\sqrt{\frac{U_e}{U_B}} $.
+
+If, instead, $ U_e \ll U_B $, then $ U_e \approx U_{syn} $ and hence $ Y=\frac{U_e}{U_B} $.
+
+We conclude by remarking that synchrotron self Compton is an important process since its existence is essential in a self-consistent treatment of any system that produces synchrotron radiation (to some degree the synchrotron photons must be up-scattered by the same electron population that created them). Whether it is dominant or not depends on the relative energy densities of electrons and magnetic fields.

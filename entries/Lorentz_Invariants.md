@@ -1,0 +1,1 @@
+Lorentz invariants are physical parameters that remain the same in all reference frames. They are useful in problems that involve multiple reference frames.

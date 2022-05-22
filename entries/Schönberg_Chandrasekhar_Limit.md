@@ -1,0 +1,1 @@
+When a star exhaust all its nuclear fuel, it does not collapse immediately, but rather evolves into an isothermal state. This is because there is no longer an energy source to support a temperature gradient. Another requirement for isothermal state is that thermal conduction time scale is faster than the Kelvin Helmholtz time scale.

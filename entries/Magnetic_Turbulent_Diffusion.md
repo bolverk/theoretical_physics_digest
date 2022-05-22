@@ -1,0 +1,11 @@
+Magnetic turbulent diffusion occurs when a charged particle moves through a region where the magnetic field changes with position. We will assume [http://theoretical-physics-digest.wikia.com/wiki/Kolmogorov_Turbulence Kolmogorov spectrum] for the magnetic field. Since the energy density is quadratic in both the velocity and the magnetic field, they have the same spectrum. Hence there are two relevant length scale. The first is the average Larmor radius $ r_l $, and the second is the coherence length $ \lambda_c $. The meaning of the latter is the length along which the magnetic field can be considered uniform. For relativistic particles, the Larmor radius is given by $ r_l \propto \frac{E}{q B} $, where $ E $ is the energy of the particle, $ q $ is the charge of the particle and $ B $ is the magnetic field, hence $ B \propto k^{-1/3}$. In this entry we will explore two limiting cases: High energy $ r_l \gg \lambda_c $ and low energy $ r_l \ll \lambda_c $.
+
+== High Energy ==
+In this limit the Larmor radius is so large that, at first approximation, within each magnetic domain the particle can be assumed to move on a straight line. The deflection angle that each magnetic domain contributes is very small: $ \Delta \theta \approx \frac{\lambda_c}{r_l} $. The number of domain the particle has to go through to significantly alter its direction of motion is $ N \approx \Delta \theta^{-2} \propto r_l^2 $. The diffusion coefficient is therefore 
+
+$ D = c \lambda_c N \propto r_l^2 \propto E^2 $
+
+== Low Energy ==
+In this case we assume that the particles gyrates around a field line. The deviations from its helical trajectory are due to magnetic field that vary on a scale of the Larmor radius (in principle, even magnetic fields at lower wavelengths can contribute, but we assume that their strength decreases with wavelength). The angular deviation after each cycle is $ \Delta \theta \approx \frac{B \left( \lambda_l \right) }{B \left(\lambda_c \right)} \propto l_r^{1/3} $. The number of cycles required to change the direction of the particle is $ N \propto \frac{1}{\Delta \theta^2} \propto r_l^{-2/3} $ and the diffusion coefficient is
+
+$ D \approx c r_l N \propto r_l^{1/3} \propto E^{1/3} $

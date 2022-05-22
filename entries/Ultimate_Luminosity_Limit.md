@@ -1,0 +1,3 @@
+The achieve the highest possible luminosity, we need to start with the most energetically dense object, which is a black hole. The energy of a black hole is equivalent to its mass $ E = M c^2 $. The radius of such black hole is $ R = \frac{G M}{c^2} $. The smallest possible time in which all the energy can be released is $ t = \frac{R}{c} = \frac{G M}{c^3} $. Hence the [http://www.wolframalpha.com/input/?i=%28speed+of+light%29^5%2F%28gravitation+constant%29 highest possible luminosity is] 
+
+$ L = \frac{E}{t} = \frac{c^5}{G} \approx 3.6 \cdot 10^{52} W $

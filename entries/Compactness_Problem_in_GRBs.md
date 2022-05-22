@@ -1,0 +1,10 @@
+The compactness is a seemingly contradiction that arises from GRB light curve data. One the one hand, a large portion of the energy is the form of non thermal, power law spectrum photons. One the other hand, the short variations in the luminosity imply a very compact source, hence optically thick.
+
+== Naive Optical Depth Calculation ==
+The typical energy of power law photons is taken to be $ E = 10^{50} erg $. The luminosity varies on a time scale of 10 ms, which, by multiplying with speed of light, implies a source radius of about [http://www.wolframalpha.com/input/?i=%28speed+of+light%29*%2810+ms%29 3000 km]. To estimate the photon density we will assume thermal equilibrium (even though in reality the spectrum is actually a power law), so we can use the formulae for black body radiation. The temperature is therefore given by
+
+$ \frac{E}{R^3} \approx a T^4 \Rightarrow T \approx \left( \frac{E}{a R^3} \right)^{1/4} $
+
+substituting the values above yields a thermal energy [http://www.wolframalpha.com/input/?i=%28boltzmann+constant%29*%28%281e50+erg%29%2F%28%2810+ms%29*%28speed+of+light%29%29^3%2F%28radiation+constant%29%29^%281%2F4%29%2F%28electron+mass%29%2F%28speed+of+light%29^2 very close to the rest mass energy of the electron]. The number density of photons is therefore $ n = \frac{E}{kT R^3} $. The cross section for two photon pair production $ \gamma + \gamma \rightarrow e^+ + e^- $ is of the [http://www.astro.umd.edu/~miller/teaching/astr688m/lecture03.pdf same order of magnitude as the Thomson cross section]. The optical depth can be calculated using $ \tau \approx \sigma n R $. Plugging in the numbers yields an optical depth of [http://www.wolframalpha.com/input/?i=%283000+km%29*%28thomson+cross+section%29*%281e50+erg%29%2F%283000+km%29^3%2F%28electron+mass%29%2F%28speed+of+light%29^2 1e15].
+
+There are two problem with such a large optical depth. The first is that photons are more likely to turn into electron - proton pairs than escape. The second is that even if there enough electron proton pairs to recombine, the radiation would be in thermal equilibrium, in contrast to the observed power law spectrum.
