@@ -15,7 +15,7 @@ $ \mathbf{u} = \sum_{\mathbf{q}} \mathbf{u}_q \exp \left(i \mathbf{q} \cdot \mat
 
 While the magnetic field has both components that fluctuate on large and small scales
 
-$ \mathbf{B} = \exp \left(\sigma t\right) \left[\mathbf{B}_0 \exp \left(i \mathbf{k} \cdot \mathbf{r} \right) + \sum_{\mathbf{q}} \mathbf{b}_q \exp \left(i \left(\mathbf{k} + \mathbf{q}\right) \cdot \mathbf{r}\right)\right] $
+$$\mathbf{B} = \exp \left(\sigma t\right) \left[\mathbf{B}\_0 \exp \left(i \mathbf{k} \cdot \mathbf{r} \right) + \sum_{\mathbf{q}} \mathbf{b}_q \exp \left(i \left(\mathbf{k} + \mathbf{q}\right) \cdot \mathbf{r}\right)\right] $$
 
 where $ q \gg k $. Substituting into the induction equation and focussing on small scales yields
 
@@ -29,13 +29,13 @@ $ \mathbf{u}_q \times \mathbf{b}_q \approx \mathbf{M} \mathbf{B}_0 $
 
 where the matrix $ \mathbf{M} $ is given by
 
-$ \mathbf{M} = \sum_{\mathbf{q}} \frac{i}{\sigma + \lambda q^2} \left(\mathbf{u}_{-q} \times \mathbf{u}_{q}\right) \otimes \mathbf{q} $
+$ \mathbf{M} = \sum_{\mathbf{q}} \frac{i}{\sigma + \lambda q^2} \left(\mathbf{u}\_{-q} \times \mathbf{u}\_{q}\right) \otimes \mathbf{q} $
 
 where $ \otimes $ is the outer production. In the limit $ \sigma \gg \lambda q^2 $, the turbulent contribution to the advective term in real space can be written as
 
 $ \mathbf{u} \times \mathbf{B} \approx \alpha \mathbf{B} + \beta \nabla \times \mathbf{B} $
 
-Where $ \alpha = \frac{1}{\sigma} < \mathbf{u} \otimes \left( \nabla \times \mathbf{u}\right)> $ and $ \beta = \frac{1}{\sigma} <\mathbf{u} \otimes \mathbf{u}>$, where triangular brackets imply spatial average. In the case of an isotropic flow, the tensors can be reduced to scalars $ \alpha = \frac{1}{\sigma} <\mathbf{u} \cdot \left(\nabla \times \mathbf{u}\right)> and $\beta = \frac{1}{\sigma} <\mathbf{u} \cdot \mathbf{u}>$.
+Where $ \alpha = \frac{1}{\sigma} < \mathbf{u} \otimes \left( \nabla \times \mathbf{u}\right)> $ and $ \beta = \frac{1}{\sigma} <\mathbf{u} \otimes \mathbf{u}>$, where triangular brackets imply spatial average. In the case of an isotropic flow, the tensors can be reduced to scalars $ \alpha = \frac{1}{\sigma} \left<\mathbf{u} \cdot \left(\nabla \times \mathbf{u}\right) \right>$ and $\beta = \frac{1}{\sigma} \left<\mathbf{u} \cdot \mathbf{u} \right>$.
 We can demonstrate the calculation of these coefficients using ABC flow
 
 $ \mathbf{u} = \left[\mathcal{A} \sin \left(q z\right)+\mathcal{C} \cos \left(q y\right) \right] \hat{x} + \left[\mathcal{B} \sin \left(q x\right) + \mathcal{A} \cos \left(q z\right)\right] \hat{y} + \left[ \mathcal{C} \sin \left(q y \right)+ \mathcal{B} \cos \left(q x\right)\right] \hat{z} $
