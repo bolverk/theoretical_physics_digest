@@ -38,11 +38,11 @@ $ \mathbf{u} \times \mathbf{B} \approx \alpha \mathbf{B} + \beta \nabla \times \
 Where $ \alpha = \frac{1}{\sigma} < \mathbf{u} \otimes \left( \nabla \times \mathbf{u}\right)> $ and $ \beta = \frac{1}{\sigma} <\mathbf{u} \otimes \mathbf{u}>$, where triangular brackets imply spatial average. In the case of an isotropic flow, the tensors can be reduced to scalars $ \alpha = \frac{1}{\sigma} \left<\mathbf{u} \cdot \left(\nabla \times \mathbf{u}\right) \right>$ and $\beta = \frac{1}{\sigma} \left<\mathbf{u} \cdot \mathbf{u} \right>$.
 We can demonstrate the calculation of these coefficients using ABC flow
 
-$ \mathbf{u} = \left[\mathcal{A} \sin \left(q z\right)+\mathcal{C} \cos \left(q y\right) \right] \hat{x} + \left[\mathcal{B} \sin \left(q x\right) + \mathcal{A} \cos \left(q z\right)\right] \hat{y} + \left[ \mathcal{C} \sin \left(q y \right)+ \mathcal{B} \cos \left(q x\right)\right] \hat{z} $
+$ \mathbf{u} = \left[\mathcal{A} \sin \left(q z\right)+\mathcal{C} \cos \left(q y\right) \right] \hat{x} + \left[\mathcal{B} \sin \left(q x\right) + \mathcal{A} \cos \left(q\ z\right)\right] \hat{y} + \left[ \mathcal{C} \sin \left(q y \right)+ \mathcal{B} \cos \left(q x\right)\right] \hat{z} $
 
 where $ \mathcal{A} $, $ \mathcal{B} $ and $ \mathcal{C} $ are constants. The corresponding coefficients are
 
-$ \alpha = \frac{q}{\sigma} \left(\mathcal{A}^2 + \mathcal{B}^2 + \mathcal{C}^2\right)
+$ \alpha = \frac{q}{\sigma} \left(\mathcal{A}^2 + \mathcal{B}^2 + \mathcal{C}^2\right)$
 
 $ \beta = \mathcal{A}^2 + \mathcal{B}^2 + \mathcal{C}^2 $
 
