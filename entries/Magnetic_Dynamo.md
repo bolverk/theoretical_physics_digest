@@ -11,7 +11,7 @@ The dimensionless term on the left hand side is sometimes called the magnetic Re
 
 The main challenge in solving the induction equation is the advection term. In what follows we will describe a mean field approximation to simplify this term. Let us assume that the velocity field fluctuates on small scales
 
-$ \mathbf{u} = \sum_{\mathbf{q}} \mathbf{u}_q \exp \left(i \mathbf{q} \cdot \mathbf{r} \right)
+$ \mathbf{u} = \sum_{\mathbf{q}} \mathbf{u}_q \exp \left(i \mathbf{q} \cdot \mathbf{r} \right) $
 
 While the magnetic field has both components that fluctuate on large and small scales
 
